@@ -8,11 +8,11 @@
     </ul>
   </li>
   <li>
-    <p>Create a <code>.gitignore</code> file in the root of your project. It should contain the text <code>node_modules</code> and <code>dist</code> on separate lines.</p>
+  <p>Create a <code>.gitignore</code> file in the root of your project. It should contain the text <code>node_modules</code> and <code>dist</code> on separate lines.</p>
 
-    <div class="code-toolbar"><pre class="line-numbers language-text" tabindex="0"><code class="language-text">node_modules
+<div class="code-toolbar"><pre class="line-numbers language-text" tabindex="0"><code class="language-text">node_modules
 dist
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></div>
   </li>
   <li>Set up an HTML skeleton inside of <code>src/template.html</code>. Inside the body, add a <code>&lt;header&gt;</code> element that contains a <code>&lt;nav&gt;</code> with buttons (not links!) for different “tabs” (for example buttons for “Home”, “Menu” or “About” etc). Below the <code>&lt;header&gt;</code>, add a single <code>&lt;div id="content"&gt;</code>.</li>
   <li>Inside of <code>src/index.js</code> write a <code>console.log</code> or <code>alert</code> statement and then run <code>npx webpack serve</code>. Open <a href="http://localhost:8080" target="_blank" rel="noopener noreferrer">http://localhost:8080</a> in your browser and check your JavaScript is running.</li>
