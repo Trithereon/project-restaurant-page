@@ -40,7 +40,7 @@ dist
   <li>
     <p>Now there are a few more commands. Run each of these in order:</p>
 
-    <div class="code-toolbar"><pre class="line-numbers language-bash" tabindex="0"><code class="language-bash"><span class="token function">git</span> <span class="token function">add</span> dist <span class="token parameter variable">-f</span> <span class="token operator">&amp;&amp;</span> <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"Deployment commit"</span>
+<div class="code-toolbar"><pre class="line-numbers language-bash" tabindex="0"><code class="language-bash"><span class="token function">git</span> <span class="token function">add</span> dist <span class="token parameter variable">-f</span> <span class="token operator">&amp;&amp;</span> <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"Deployment commit"</span>
 <span class="token function">git</span> subtree push <span class="token parameter variable">--prefix</span> dist origin gh-pages
 <span class="token function">git</span> checkout main
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><div class="toolbar"><div class="toolbar-item"><button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button></div></div></div>
