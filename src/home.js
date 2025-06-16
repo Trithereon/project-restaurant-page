@@ -15,15 +15,20 @@ export default function generateHome() {
     subtitle.textContent = "The World's Finest Elvish Cuisine";
     document.getElementById('content').appendChild(subtitle);
 
+    const contentContainer = document.createElement('div');
+    contentContainer.setAttribute('id', 'home-content-container');
+    document.getElementById('content').appendChild(contentContainer);
+
     const img = document.createElement('img');
     img.setAttribute('src', image);
-    img.setAttribute('alt', 'Picture of fancy restaurant meal');
+    img.setAttribute('alt', 'Picture of fancy Elvish restaurant meal');
     img.setAttribute('class', 'hero');
     img.setAttribute('width', '770');
     img.setAttribute('height', '513');
-    document.getElementById('content').appendChild(img);
+    document.getElementById('home-content-container').appendChild(img);
 
     const description = document.createElement('p');
+    description.setAttribute('class', 'hero');
     description.textContent = "An ethereal dining sanctuary where ancient Elvish recipes meet modern culinary artistry. Dine under enchanted canopies on delicacies like Mallorn-leaf wrapped salmon and Vintage Miruvor wine, crafted with ingredients from old mythical forests. A feast for the senses, whispered to be blessed by Galadriel herself.";
-    document.getElementById('content').appendChild(description);
+    document.getElementById('home-content-container').appendChild(description);
 };
