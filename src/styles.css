@@ -32,7 +32,7 @@ p {
     margin: 5px 0;
 }
 .item-price {
-    color: #d4af37;
+    color: #000000;
     font-weight: bold;
 }
 img.hero {
@@ -57,11 +57,10 @@ nav {
   color: #f5f5e9; /* Cream text */
   background-color: transparent;
   border: 2px solid #d4af37; /* Gold border */
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 180ms ease;
   text-transform: uppercase;
-  letter-spacing: 0px;
 }
 
 /* Hover/active states */
@@ -76,9 +75,7 @@ nav {
   border-color: #f5f5e9; /* Cream border */
 }
 
-/* Optional: Add Elvish-inspired details */
 .nav-button::after {
-  content: "»";
   margin-left: 8px;
   color: #d4af37;
   opacity: 0;
@@ -87,4 +84,189 @@ nav {
 
 .nav-button:hover::after {
   opacity: 1;
+}
+
+/* History Section Styling */
+.content-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #4a6b2a; /* Deep green */
+  text-align: center;
+  font-family: 'Palatino', serif;
+  border-bottom: 2px solid #d4af37; /* Gold */
+  padding-bottom: 10px;
+}
+
+/* Timeline Styling */
+.timeline {
+  position: relative;
+  margin: 40px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: #d4af37; /* Gold timeline line */
+}
+
+.timeline-item {
+  padding: 20px 40px;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-year {
+  font-weight: bold;
+  color: #d4af37; /* Gold */
+  font-size: 1.2rem;
+}
+
+.timeline-content {
+  background: rgba(234, 234, 224, 0.3); /* Cream background */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.3); /* Gold border */
+}
+
+.timeline-content h3 {
+  color: #4a6b2a; /* Deep green */
+  margin-top: 0;
+}
+
+/* Blockquote Styling */
+.history-quote {
+  font-style: italic;
+  color: #666;
+  text-align: center;
+  border-left: 4px solid #d4af37; /* Gold accent */
+  padding-left: 20px;
+  margin: 40px 0;
+}
+
+.history-quote cite {
+  display: block;
+  margin-top: 10px;
+  color: #4a6b2a; /* Deep green */
+  font-style: normal;
+}
+
+/* News Section Styling */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+/* News Card Styling */
+.news-card {
+  background: rgba(234, 234, 224, 0.3); /* Cream background */
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid rgba(212, 175, 55, 0.3); /* Gold border */
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(212, 175, 55, 0.1);
+}
+
+.news-date {
+  background-color: #4a6b2a; /* Deep green */
+  color: #f5f5e9; /* Cream text */
+  padding: 8px 15px;
+  font-size: 0.9rem;
+}
+
+.news-image {
+  width: 100%;
+}
+
+.news-card h3 {
+  color: #4a6b2a; /* Deep green */
+  padding: 15px 15px 0;
+  margin: 0;
+}
+
+.news-card p {
+  padding: 10px 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.news-button {
+  display: block;
+  width: calc(100% - 30px);
+  margin: 15px;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #d4af37; /* Gold */
+  color: #4a6b2a; /* Deep green */
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.news-button:hover {
+  background-color: rgba(212, 175, 55, 0.2); /* Gold tint */
+}
+
+/* Newsletter Form */
+.news-subscribe {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  background: rgba(74, 107, 42, 0.1); /* Light green */
+  border-radius: 8px;
+}
+
+.news-subscribe h3 {
+  color: #4a6b2a; /* Deep green */
+  margin-bottom: 20px;
+}
+
+.subscribe-form input {
+  padding: 12px;
+  width: 300px;
+  border: 1px solid #d4af37; /* Gold */
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+}
+
+.submit-button {
+  padding: 12px 25px;
+  background-color: #4a6b2a; /* Deep green */
+  color: #f5f5e9; /* Cream */
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #3a5522; /* Darker green */
 }
