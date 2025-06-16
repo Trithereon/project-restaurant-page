@@ -3,14 +3,15 @@
 //         <h3>The World's Finest Elvish Cuisine</h3>
 //         <img src="./img/restaurant.jpg" alt="" class="hero" width="900" height="600">
 //         <p>An ethereal dining sanctuary where ancient Elvish recipes meet modern culinary artistry. Dine under enchanted canopies on delicacies like Mallorn-leaf wrapped salmon and Vintage Miruvor wine, crafted with ingredients from old mythical forests. A feast for the senses, whispered to be blessed by Galadriel herself.</p>
+
 import image from "./img/restaurant.jpg";
 
-export default function homeContent() {
+export default function generateHome() {
     const heading = document.createElement('h1');
     heading.textContent = "Lothlórien's Grace";
     document.getElementById('content').appendChild(heading);
 
-    const subtitle = document.createElement('h3');
+    const subtitle = document.createElement('h2');
     subtitle.textContent = "The World's Finest Elvish Cuisine";
     document.getElementById('content').appendChild(subtitle);
 
