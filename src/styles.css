@@ -270,3 +270,62 @@ nav {
 .submit-button:hover {
   background-color: #3a5522; /* Darker green */
 }
+
+/* ===== FAQ PAGE (unique styles) ===== */
+#faq .faq-container {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+#faq .faq-item {
+  border: 1px solid rgba(212, 175, 55, 0.3); /* Gold border */
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  background: var(--color-light-bg);
+}
+
+#faq .faq-question {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--color-green);
+  list-style: none; /* Hide default arrow */
+}
+
+#faq .faq-question::-webkit-details-marker {
+  display: none; /* Hide default arrow in WebKit */
+}
+
+#faq .faq-question:hover {
+  background: rgba(212, 175, 55, 0.1);
+}
+
+#faq .faq-icon {
+  transition: transform 0.3s ease;
+}
+
+#faq .faq-item[open] .faq-icon {
+  transform: rotate(180deg);
+}
+
+#faq .faq-answer {
+  padding: 0 1.2rem 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  border-top: 1px dashed rgba(212, 175, 55, 0.3);
+}
+
+#faq .faq-contact {
+  text-align: center;
+  margin-top: 3rem;
+  font-style: italic;
+}
+
+#faq .faq-contact a {
+  color: var(--color-gold);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--color-gold);
+}
