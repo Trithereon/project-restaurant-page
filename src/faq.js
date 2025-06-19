@@ -1,6 +1,7 @@
 export default function generateFaq(){
     document.getElementById('content').innerHTML = `
 <section id="faq" class="content-section">
+<h1>Lothlórien's Grace</h1>
 <h2 class="section-title">Wisdom of the Elders (FAQ)</h2>
   
   <div class="faq-container">

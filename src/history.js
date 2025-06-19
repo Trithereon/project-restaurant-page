@@ -1,6 +1,7 @@
 export default function generateHistory() {
 document.getElementById('content').innerHTML = `
 <section id="history" class="content-section">
+<h1>Lothlórien's Grace</h1>
   <h2 class="section-title">The History of Lothlórien's Grace</h2>
   
   <div class="timeline">

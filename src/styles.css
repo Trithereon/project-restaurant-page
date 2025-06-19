@@ -2,6 +2,7 @@ h1 {
     text-align: center;
     color: #4a6b2a;
     font-family: 'Palatino', serif;
+    font-size: 3rem;
 }
 h2 {
     text-align: center;
@@ -9,19 +10,22 @@ h2 {
     border-left: 4px solid #d4af37;
     border-bottom: 1px solid #d4af37;
     padding-left: 10px;
+    padding-bottom: 10px;
 }
 p.hero {
     text-align: center;
     color: #4a6b2a;
     font-weight: 500;
-    width: 50%;
+    width: 85%;
 }
-div#home-content-container {
+
+/* div#home-content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-}
+} note: no longer needed since I'm using section id="home" instead */
+
 .menu-item {
     margin: 20px 0;
     padding-bottom: 15px;
@@ -99,8 +103,18 @@ nav {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Home elements */
+#home {
+  display: flex;
+  flex-direction: column;
+}
+
+#home p, #home img {
+  align-self: center;
+}
+
 .section-title {
-  color: #4a6b2a; /* Deep green */
+  color: #6b8e23;
   text-align: center;
   font-family: 'Palatino', serif;
   border-bottom: 2px solid #d4af37; /* Gold */

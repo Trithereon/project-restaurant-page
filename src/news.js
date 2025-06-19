@@ -5,6 +5,7 @@ import cellar from "./img/cellar.jpg";
 export default function generateNews(){
     document.getElementById('content').innerHTML = `
 <section id="news" class="content-section">
+<h1>Lothlórien's Grace</h1>
   <h2 class="section-title">Tidings from the Golden Wood (News)</h2>
   
   <div class="news-grid">
