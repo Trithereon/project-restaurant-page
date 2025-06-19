@@ -1,7 +1,8 @@
 export default function generateMenu() {
     console.log('content was just deleted by pressing menu button.');
     document.getElementById('content').innerHTML = `
-        <h1>Lothlórien's Grace</h1>
+    <section id="menu" class="content-section">    
+    <h1>Lothlórien's Grace</h1>
         <h2>Appetizers</h2>
         <div class="menu-item">
             <div class="item-name">Lembas Bread Trio</div>
@@ -47,5 +48,6 @@ export default function generateMenu() {
             <div class="item-desc">Lavender-infused honeycomb with whipped cream and edible flowers</div>
             <div class="item-price">16 silver pieces</div>
         </div>
+        </section>
         `;
 }        
