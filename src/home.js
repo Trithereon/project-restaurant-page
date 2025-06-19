@@ -10,8 +10,8 @@ import image from "./img/restaurant.jpg";
 
 export default function generateHome() {
     const sectionContainer = document.createElement('section');
-    sectionContainer.setAttribute('id', 'home');
-    sectionContainer.setAttribute('class', 'content-section');
+    sectionContainer.id = 'home';
+    sectionContainer.className = 'content-section';
     document.getElementById('content').appendChild(sectionContainer);
 
     const heading = document.createElement('h1');
@@ -30,7 +30,7 @@ export default function generateHome() {
     const img = document.createElement('img');
     img.setAttribute('src', image);
     img.setAttribute('alt', 'Picture of fancy Elvish restaurant meal');
-    img.setAttribute('class', 'hero');
+    img.className = 'hero';
     img.setAttribute('width', '770');
     img.setAttribute('height', '513');
     document.getElementById('home').appendChild(img);
