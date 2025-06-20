@@ -23,13 +23,6 @@ p.hero {
     box-shadow: 0 5px 5px rgba(74, 107, 42, 0.1);
 }
 
-/* div#home-content-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-} note: no longer needed since I'm using section id="home" instead */
-
 .menu-item {
     margin: 20px 20px;
     padding-bottom: 15px;
@@ -97,7 +90,7 @@ nav {
   opacity: 1;
 }
 
-/* History Section Styling */
+/* History section styles */
 .content-section {
   max-width: 900px;
   margin: 0 auto;
@@ -125,7 +118,7 @@ nav {
   padding-bottom: 10px;
 }
 
-/* Timeline Styling */
+/* Timeline styles */
 .timeline {
   position: relative;
   margin: 40px 0;
@@ -176,7 +169,7 @@ nav {
   margin-top: 0;
 }
 
-/* Blockquote Styling */
+/* Blockquote styles */
 .history-quote {
   font-style: italic;
   color: #666;
@@ -193,7 +186,7 @@ nav {
   font-style: normal;
 }
 
-/* News Section Styling */
+/* News section styles */
 .news-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -201,7 +194,7 @@ nav {
   margin: 40px 0;
 }
 
-/* News Card Styling */
+/* News card styles */
 .news-card {
   background: rgba(234, 234, 224, 0.3); /* Cream background */
   border-radius: 12px;
@@ -255,7 +248,7 @@ nav {
   background-color: rgba(212, 175, 55, 0.2); /* Gold tint */
 }
 
-/* Newsletter Form */
+/* Newsletter form */
 .news-subscribe {
   text-align: center;
   margin-top: 50px;
@@ -292,7 +285,7 @@ nav {
   background-color: #3a5522; /* Darker green */
 }
 
-/* ===== FAQ PAGE (unique styles) ===== */
+/* FAQ styles */
 #faq .faq-container {
   max-width: 800px;
   margin: 2rem auto;
@@ -317,7 +310,7 @@ nav {
 }
 
 #faq .faq-question::-webkit-details-marker {
-  display: none; /* Hide default arrow in WebKit */
+  display: none; /* Hide default arrow in webkit */
 }
 
 #faq .faq-question:hover {
@@ -346,7 +339,7 @@ nav {
 }
 
 #faq .faq-contact a {
-  color: var(--color-gold);
+  color: #d4af37;
   text-decoration: none;
-  border-bottom: 1px dotted var(--color-gold);
+  border-bottom: 1px dotted #d4af37;
 }
