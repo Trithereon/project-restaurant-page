@@ -1,46 +1,58 @@
+@font-face {
+  font-family: "Aniron";
+  src: url("./fonts/aniron.woff2") format("woff2");
+}
+body {
+  margin: 0;
+}
 h1 {
-    text-align: center;
-    color: #4a6b2a;
-    font-family: 'Palatino', serif;
-    font-size: 3rem;
-    text-shadow: 3px 2px 2px rgba(212, 175, 55, 0.4);
+  text-align: center;
+  color: #4a6b2a;
+  font-family: "Aniron", "Palatino", serif;
+  font-size: 3rem;
+  text-shadow: 3px 2px 2px rgba(212, 175, 55, 0.4);
 }
 h2 {
-    text-align: center;
-    color: #6b8e23;
-    border-left: 4px solid #d4af37;
-    border-bottom: 2px solid #d4af37;
-    padding-bottom: 10px;
-    box-shadow: 0 5px 5px rgba(74, 107, 42, 0.1);
+  text-align: center;
+  color: #6b8e23;
+  font-family: "Aniron", "Palatino", serif;
+  border-left: 4px solid #d4af37;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 10px;
+  box-shadow: 0 5px 5px rgba(74, 107, 42, 0.1);
+}
+h3 {
+  font-family: "Aniron", "Palatino", serif;
 }
 p.hero {
-    text-align: center;
-    color: #4a6b2a;
-    font-weight: 500;
-    width: 85%;
-    border-bottom: 1px solid #d4af37;
-    border-left: 2px solid #d4af37;
-    box-shadow: 0 5px 5px rgba(74, 107, 42, 0.1);
+  text-align: center;
+  color: #4a6b2a;
+  font-weight: 500;
+  width: 85%;
+  border-bottom: 1px solid #d4af37;
+  border-left: 2px solid #d4af37;
+  box-shadow: 0 5px 5px rgba(74, 107, 42, 0.1);
 }
 
 .menu-item {
-    margin: 20px 20px;
-    padding-bottom: 15px;
-    border-bottom: 1px dashed #ccc;
+  margin: 20px 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ccc;
 }
 .item-name {
-    font-weight: bold;
-    color: #4a6b2a;
-    font-size: 1.1em;
+  font-weight: bold;
+  color: #4a6b2a;
+  font-size: 1.1em;
+  font-family: "Aniron", "Palatino", serif;
 }
 .item-desc {
-    font-style: italic;
-    color: #666;
-    margin: 5px 0;
+  font-style: italic;
+  color: #666;
+  margin: 5px 0;
 }
 .item-price {
-    color: #000000;
-    font-weight: bold;
+  color: #000000;
+  font-weight: bold;
 }
 
 /* Navbar container */
@@ -55,8 +67,8 @@ nav {
 
 /* Nav buttons */
 .nav-button {
-  padding: 12px 30px;
-  font-family: 'Georgia', serif;
+  padding: 8px 30px;
+  font-family: "Aniron", "Georgia", serif;
   font-size: 1rem;
   color: #f5f5e9; /* Cream text */
   background-color: transparent;
@@ -74,7 +86,8 @@ nav {
 }
 
 .nav-button:active,
-.nav-button.active { /* For the current page */
+.nav-button.active {
+  /* For the current page */
   background-color: rgba(212, 175, 55, 0.4); /* Stronger gold */
   border-color: #f5f5e9; /* Cream border */
 }
@@ -106,14 +119,15 @@ nav {
   flex-direction: column;
 }
 
-#home p, #home img {
+#home p,
+#home img {
   align-self: center;
 }
 
 .section-title {
   color: #6b8e23;
   text-align: center;
-  font-family: 'Palatino', serif;
+  font-family: "Aniron", "Palatino", serif;
   border-bottom: 2px solid #d4af37; /* Gold */
   padding-bottom: 10px;
 }
@@ -125,7 +139,7 @@ nav {
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 0;
@@ -155,6 +169,7 @@ nav {
   font-weight: bold;
   color: #d4af37; /* Gold */
   font-size: 1.2rem;
+  font-family: "Aniron", "Palatino", serif;
 }
 
 .timeline-content {
@@ -239,7 +254,7 @@ nav {
   background-color: transparent;
   border: 2px solid #d4af37; /* Gold */
   color: #4a6b2a; /* Deep green */
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -267,7 +282,7 @@ nav {
   width: 300px;
   border: 1px solid #d4af37; /* Gold */
   border-radius: 4px;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
 }
 
 .submit-button {
